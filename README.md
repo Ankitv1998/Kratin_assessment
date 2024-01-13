@@ -1,13 +1,16 @@
 Medicine Manager And Reminder App
 Save weekly medicine routine of all the family members and get timely reminders.
 An android application which keeps track of the medicine timings or schedules of multiple patients in a single device. Reminders with the full information of medicine, it's quantity and the patient name.
-Tools Used :
+
+
+**Tools Used :**
 Backend :
 Android Studio IDE
 Java
 SQLite database ( SQLiteOpenHelper )
 Frontend :
 XML
+
 Landing Screen	Home Screen	Add New User Dialog Box
 home	home	home
 User List Display Screen	Medicine Screen For Particular User	Add Medicine Dialog Box
