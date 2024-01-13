@@ -1,27 +1,36 @@
-Medicine Manager And Reminder App
-Save weekly medicine routine of all the family members and get timely reminders.
-An android application which keeps track of the medicine timings or schedules of multiple patients in a single device. Reminders with the full information of medicine, it's quantity and the patient name.
+**Overview:**
+The Medicine Manager and Reminder App is a sophisticated Android application designed to streamline and organize the medication routines of multiple family members. This user-friendly app, developed using Android Studio IDE and Java for the backend, employs an SQLite database to efficiently manage and store medicine schedules offline. The frontend utilizes XML for a responsive and intuitive interface.
 
+**Features:**
 
-**Tools Used :**
-Backend :
-Android Studio IDE
+Multi-User Functionality: The app allows users to save weekly medicine routines for all family members, particularly beneficial for elders who may not have smartphones. Each user's schedule can be easily accessed and managed from a single device.
+
+Timely Reminders: Users receive comprehensive reminders with detailed information, including medicine name, quantity, and the patient's name, ensuring adherence to prescribed schedules.
+
+Offline Advantage: The app operates seamlessly without requiring an internet connection, utilizing an offline database for faster read and write operations. This ensures accessibility and functionality even in areas with limited connectivity.
+
+Medicine Quantity Tracking: Users can input and track the quantities of medicine, providing a clear overview of the required dosage and remaining supplies.
+
+User-Friendly UI: The app boasts a dynamic and intuitive user interface created using dynamically updating RecyclerViews. The interface adapts in real-time as changes are made to the database, enhancing the overall user experience.
+
+**Tools Used:**
+Backend:
+
+**Android Studio IDE**
 Java
-SQLite database ( SQLiteOpenHelper )
-Frontend :
+SQLite database (SQLiteOpenHelper)
+**Frontend:**
+
 XML
+Application Screens:
 
-Landing Screen	Home Screen	Add New User Dialog Box
-home	home	home
-User List Display Screen	Medicine Screen For Particular User	Add Medicine Dialog Box
-home	home	home
-Medicine List Display Screen	Notifications For Different Users	Reminder Screen
-home	home	home
-Need of Project :
-     Health is the only thing that we should care the most. COVID-19 made all the people aware about the importance of health. In such a situation, forgetting about the medicine timings can severely affect the health of an individual. Taking this into consideration, I came up with the idea of this project. The main feature of this project is that it is multi-user. so that all the family members especially the elder people who generally dont have smartphones can get benefitted by saving their schedule in one of the smartphone in their family.
-
-Key Features :
-Offline Advantage : As the Application works with an offline database which is stored in the device, no internet connection is required, offline storage of database helps in faster read write operations.
-Multiple Users : Medicine timings of multiple users can be stored in the same app in same smartphone.
-Medicine Quantity : Quantities of medicine can also be stored so that one can know, how many tablets or medicines he/she has to take.
-User Friendly UI : The user interface is made using dynamically updating RecyclerViews, which gets updated as we made changes in database.
+Landing Screen: Welcoming users and providing quick access to essential features.
+Home Screen: Displaying the medicine schedules for all family members.
+Add New User Dialog Box: Facilitating the addition of new family members to the app.
+Medicine Screen for Particular User: Offering a detailed view of the medicine schedule for a specific family member.
+Add Medicine Dialog Box: Enabling users to input new medicines with relevant details.
+Medicine List Display Screen: Presenting a comprehensive list of medicines for easy reference.
+Notifications for Different Users: Notifying users about upcoming medication times.
+Reminder Screen: Providing a consolidated view of all reminders for efficient management.
+Need of Project:
+In the wake of the global health crisis, the significance of health has been underscored. The Medicine Manager and Reminder App address the critical issue of forgetting medication timings, especially for those without smartphones. The project's multi-user functionality is tailored to benefit entire families, ensuring a centralized and efficient approach to medication management.
